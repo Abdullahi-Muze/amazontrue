@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(198, 228, 255);
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+}
+header{
+    background-color:  rgb(159, 192, 231);
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    padding: 5px 10px;
+    align-items: center;
+
+}
+.logo{
+    background-color: blue;
+    width: 180px;
+}
+.logo img{
+    width: 80%;
+}
+.deliveryLocation{
+    background-color: yellow;
+    width: 80px;
+}
+.searchBar{
+    background-color: aquamarine;
+    width: 1050px;
+    display: flex;
+ 
+}
+.searchBar input{
+    width: 95%;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+.searchBar button{
+    width: 5%;
+    outline: none;
+    border-radius: 10px;
+
+}
+.searchBar button img{
+    width: 100%;
+}
+.language{
+    background-color: bisque;
+    width: 100px;
+    display: flex;
+    font-weight: bold;
+
+    
+}
+.language img{
+    width: 20%;
+    padding-right: 5px;
+}
+.signUp{
+    background-color: blueviolet;
+    width: 100px;
+}
+.signUp button{
+    padding: 10px;
+    border-radius: 8px;
+    width: 80%;
+}
+.returnOrder{
+    background-color: brown;
+    width: 100px;
+ 
+}
+.returnOrder button{
+    border-radius: 6px;
+    font-weight: bold;
+}
+.cart{
+    background-color: aqua;
+    width: 100px;
+    display: flex;
+}
